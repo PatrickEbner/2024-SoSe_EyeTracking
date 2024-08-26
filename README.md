@@ -6,14 +6,10 @@
 **Semester:** *Summer semester 2024*
 
 ## Project Description
-> Please provide a short description of the main goals. 
+This experiment aims to build on previous findings by exploring the impact of spatial configurations, specifically diagonal arrangements, on the left bias in image fixation. The research question guiding this study is: "Does diagonal positioning of stimuli eliminate the left bias in viewing images?" By analyzing how different diagonal placements—combining left-right and top-bottom arrangements—affect which image is fixated on first, the experiment seeks to determine whether these configurations reinforce, negate, or counterbalance the left bias. The results will be compared to existing scientific knowledge to assess consistency and uncover potential new insights.
 
 ## Instruction for a new student
->If a fellow student wants to reproduce all your results. What scripts, in which order, with which data need to be run?
->
->Be as specific as possible.
->
->Optional: Add a pipeline plot in which the different steps are displayed together with the corresponding scripts.
+To reproduce the experiment and generate the plots, simply run the DiagonalBias.ipynb notebook. All required dependencies and imports will be installed automatically during execution. If you need to add new participants, save the corresponding TSV file in the ../data/raw directory. The rest of the process is fully automated, and the script will run smoothly as long as Python is properly configured.
 
 ## Overview of Folder Structure 
 

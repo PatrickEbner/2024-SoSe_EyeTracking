@@ -24,10 +24,8 @@ To reproduce the experiment and generate the plots, simply run the DiagonalBias.
 ├── _research        <- WIP scripts, code, notes, comments,
 │                       to-dos and anything in a preliminary state.
 │
-├── plots            <- All exported plots go here, best in date folders.
-|                       Note that to ensure reproducibility it is required that all plots can be
-|                       recreated using the plotting scripts in the scripts folder.
-│
+├── plots            <- All exported plots go here.
+|                   
 ├── scripts          <- Various scripts, e.g. analysis and plotting.
 │                       The scripts use the `src` folder for their base code.
 │
@@ -37,18 +35,16 @@ To reproduce the experiment and generate the plots, simply run the DiagonalBias.
 │
 ├── experiment       <- OpenSesame file to run the experiment; where applicable also stimuli, randomization
 |
-├── data             <- **If they have a reasonable file size**
+├── data             
 |   ├── raw          <- Raw eye-tracking data
 |   ├── preprocessed <- Data resulting from preprocessing
 |
-├── README.md        <- Top-level README. Fellow students need to be able to
-|                       reproduce your project. Think about them!
+├── README.md        <- Top-level README
 |
-├── .gitignore       <- List of files that you don’t want Git to automatically add
+├── .gitignore       <- List of files that Git won't automatically add
 |                       (default Python .gitignore was used)
 │
 └── (requirements.txt)<- List of modules and packages that are used for your project
                      
 ```
-## Note on sharing your recorded data
-If your data is <1GB you can add it to the data folder in your Git repository. Otherwise, only include it in the project package that you submit on Ilias at the end of the term.
+

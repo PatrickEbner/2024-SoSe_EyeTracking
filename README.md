@@ -11,6 +11,10 @@ This experiment aims to build on previous findings by exploring the impact of sp
 ## Instruction for a new student
 To reproduce the experiment and generate the plots, simply run the DiagonalBias.ipynb notebook. All required dependencies and imports will be installed automatically during execution. If you need to add new participants, save the corresponding TSV file in the ../data/raw directory. The rest of the process is fully automated, and the script will run smoothly as long as Python is properly configured.
 
+## Sanity Checks
+
+To ensure the correctness of the analysis, several sanity checks were added. Target of these checks is to count the event frequency of log entries, checking and plotting the number of fixations and the appearance of stimuli pairs. The number of extracted fixations is checked, and it is ensured that the experiment is balanced correctly. Therefore, the number of stimuli pairs is counted. The number is almost equal for each pair. Altogether, the experiment is balanced correctly.
+
 ## Overview of Folder Structure 
 
 ```

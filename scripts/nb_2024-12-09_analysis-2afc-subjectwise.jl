@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.3
+# v0.20.9
 
 using Markdown
 using InteractiveUtils
@@ -51,7 +51,13 @@ end
 end
 
 # ╔═╡ c2b80a56-9ce9-4c07-9c66-58a8ab994635
-scatter(d.target_x,-d.target_y,alpha=0.005)
+scatter(d.target_x,-d.target_y,alpha=1)
+
+# ╔═╡ bb974c23-9adf-4980-bc7d-4823f4740785
+data(d)*mapping(:target_x,:target_y,color=:condition)*visual(Scatter)|>draw
+
+# ╔═╡ ddab2c55-1c10-4ea7-918f-d6ce31914a98
+d
 
 # ╔═╡ 90c2a9f1-92ef-48a1-9d84-bf2d1e0248fd
 @by(d,:choice,:m_rt = mean(:reaction_time))
@@ -149,7 +155,7 @@ SwarmMakie = "~0.1.2"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.1"
+julia_version = "1.11.2"
 manifest_format = "2.0"
 project_hash = "b96427a7888aa01049dc3e2ca5ccf666c90a338a"
 
@@ -1851,6 +1857,8 @@ version = "3.6.0+0"
 # ╠═d11fd2ca-a425-41ed-9324-e4763ed6cfb2
 # ╠═3854e764-6282-4540-96a0-1a11e813d9d0
 # ╠═c2b80a56-9ce9-4c07-9c66-58a8ab994635
+# ╠═bb974c23-9adf-4980-bc7d-4823f4740785
+# ╠═ddab2c55-1c10-4ea7-918f-d6ce31914a98
 # ╠═90c2a9f1-92ef-48a1-9d84-bf2d1e0248fd
 # ╠═c896df18-88bc-422e-a938-78b5d9b4bcc7
 # ╠═8bc931fe-8dc1-47a6-9c07-af09c5c89c0f
